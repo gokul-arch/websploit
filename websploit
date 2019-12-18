@@ -149,7 +149,7 @@ def main():
         elif terminal[0:4] =='exit':
             exit()
         else:
-            print "Wrong Command => ", terminal
+            print ("Wrong Command => ", terminal)
             main()
     except(KeyboardInterrupt):
         print(wcolors.color.RED + "\n[*] (Ctrl + C ) Detected, Trying To Exit ..." + wcolors.color.ENDC)
